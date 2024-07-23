@@ -1,154 +1,191 @@
 # LEAN XP
 
-## Objetivo de la presentación
-Conocer los beneficios de adoptar metodologías ágiles, con un énfasis en Lean XP. Veremos cómo estas prácticas no solo abordan los desafíos del desarrollo de software en la actualidad, sino que también fomentan una cultura de mejora continua y colaboración que impulsa el éxito del equipo y la satisfacción del cliente.
+## Objective of the presentation
+To understand the benefits of adopting agile methodologies, with a focus on Lean XP. We will explore how these practices not only address current software development challenges but also foster a culture of continuous improvement and collaboration that drives team success and customer satisfaction.
 
-## Temas
-- ¿Qué es Lean?
-- Principios Lean
-- ¿Qué es XP?
-- Prácticas
-- Valores
+## Topics:
+- What is Lean?
+- Lean Principles
+- What is XP?
+- Practices
+- Values
 - Pair Programming
-- Errores comunes
-- Trabajar de forma exitosa
-- Proyecto Lean XP
-
----
+- Common Errors
+- Working Successfully
+- Lean XP Project
 
 ## LEAN
-### ¿Qué es Lean?
-Lean Software Development (LSD) es un marco ágil basado en optimizar el tiempo y los recursos de desarrollo, eliminar el desperdicio y en última instancia, entregar solo lo que el producto necesita. Lean se centra en identificar y eliminar actividades que no agregan valor al cliente final. En lugar de seguir enfoques rígidos y burocráticos, Lean promueve la flexibilidad, la adaptabilidad y el enfoque en lo que realmente importa para el cliente. También se conoce como estrategia de Producto Mínimo Viable (MVP).
 
-### Principios
-- **Eliminación de Desperdicios:** 
-  - La eliminación de código innecesario
-  - Especificación temprana
-  - Procesos manuales
-  - Retrasos en el ciclo de desarrollo
-  - Defectos y cualquier otra forma de desperdicio.
+### What is Lean?
+Lean Software Development (LSD) is an agile framework focused on optimizing development time and resources, eliminating waste, and delivering only what the product needs. Lean emphasizes identifying and eliminating activities that do not add value to the end customer. Instead of rigid and bureaucratic approaches, Lean promotes flexibility, adaptability, and a focus on what truly matters to the customer. It is also known as Minimum Viable Product (MVP) strategy.
 
-- **Entrega Continua de Valor:** 
-  - LEAN en el desarrollo de software enfatiza la entrega temprana y frecuente de características funcionales al cliente.
-  - Se busca maximizar el valor entregado en cada iteración o ciclo de desarrollo, permitiendo obtener retroalimentación rápida y adaptarse a los cambios en los requisitos del cliente.
+### Principles
 
-- **Optimización del Proceso de Desarrollo:** 
-  - Identificar y eliminar cuellos de botella
-  - Suavizar el flujo de trabajo
-  - Reducir los tiempos de espera y mejorar continuamente la eficiencia y la calidad en cada etapa del proceso.
+- Waste Elimination:
+  - Elimination of unnecessary code
+  - Early specification
+  - Manual processes
+  - Delays in the development cycle
+  - Defects and any other form of waste
 
-- **Enfoque en la Calidad:** 
-  - La detección temprana de defectos
-  - La automatización de pruebas
-  - La revisión continua del código
-  - La retroalimentación constante para garantizar que se cumplan los estándares de calidad en todo momento.
+- Continuous Delivery of Value:
+  - LEAN in software development emphasizes early and frequent delivery of functional features to the customer.
+  - The goal is to maximize value delivered in each iteration or development cycle, enabling rapid feedback and adaptation to changes in customer requirements.
 
-- **Colaboración y Mejora Continua:** 
-  - LEAN fomenta la colaboración entre todos los miembros del equipo de desarrollo, así como con los stakeholders externos.
-  - Se alienta a buscar constantemente formas de mejorar los procesos, herramientas y prácticas, mediante la reflexión, la experimentación y el aprendizaje continuo.
+- Process Optimization:
+  - Identify and eliminate bottlenecks
+  - Smooth workflow
+  - Reduce wait times and continuously improve efficiency and quality at each stage of the process.
 
----
+- Focus on Quality:
+  - Early defect detection
+  - Test automation
+  - Continuous code review
+  - Constant feedback to ensure quality standards are met at all times.
+
+- Collaboration and Continuous Improvement:
+  - LEAN fosters collaboration among all members of the development team, as well as external stakeholders.
+  - It encourages constantly seeking ways to improve processes, tools, and practices through reflection, experimentation, and continuous learning.
 
 ## XP
-### ¿Qué es XP?
-Extreme Programming (XP) es una metodología ágil de desarrollo de software que se enfoca en la entrega de software de alta calidad de manera rápida y adaptable. Fue creado por Kent Beck a fines de la década de 1990 y se centra en principios como la comunicación, la retroalimentación, la simplicidad y valentía. XP se basa en una serie de prácticas y valores que buscan mejorar la productividad del equipo, la calidad del software y la satisfacción del cliente.
 
-### Prácticas
-- **Programación en Parejas (Pair Programming):** Dos programadores trabajan juntos en el mismo equipo, compartiendo una estación de trabajo y colaborando en la escritura de código.
-- **Pruebas Unitarias Continuas (Continuous Integration):** Las pruebas unitarias se escriben antes de escribir el código y se ejecutan automáticamente de forma continua para garantizar la calidad del software.
-- **Integración Continua (Continuous Integration):** Los cambios en el código se integran automáticamente en un repositorio compartido varias veces al día, lo que ayuda a identificar y solucionar problemas de integración de forma rápida.
-- **Refactorización (Refactoring):** Se realiza de manera frecuente y sistemática para mejorar la estructura y el diseño del código sin cambiar su funcionalidad.
-- **Planificación de Juego (Planning Game):** Se realiza en iteraciones cortas (generalmente de una o dos semanas) para identificar y priorizar las características del producto y planificar las actividades del equipo.
-- **Diseño Simple (Simple Design):** Se enfoca en crear la solución más simple que satisfaga los requisitos actuales, evitando la sobreingeniería y anticipando cambios futuros.
+### What is XP?
+Extreme Programming (XP) is an agile software development methodology that focuses on delivering high-quality software quickly and adaptably. Created by Kent Beck in the late 1990s, XP focuses on principles such as communication, feedback, simplicity, and courage. Extreme Programming is based on a set of practices and values aimed at improving team productivity, software quality, and customer satisfaction.
 
-### Valores
-- **Comunicación:** "Lo que más importa en el desarrollo de software en equipo es la comunicación". (Kent Beck). Fomenta una comunicación abierta y efectiva entre todos los miembros del equipo de desarrollo, así como con los stakeholders externos.
-- **Simplicidad:** La simplicidad en Lean XP consiste en centrarse en lo necesario para ofrecer valor de manera eficiente.
-- **Feedback:** "Cuanto antes lo sepas, antes podrás adaptarte". La retroalimentación es una parte fundamental de la comunicación y contribuye a la simplicidad.
-- **Valentía:** Implica asumir riesgos, probar cosas nuevas y tomar decisiones difíciles incluso en condiciones de incertidumbre.
-- **Respeto:** Reconoce y valora las contribuciones de cada miembro del equipo, fomentando un ambiente de trabajo colaborativo y respetuoso.
+### Practices
 
----
+- Pair Programming:
+  - Two programmers work together on the same team, sharing a workstation and collaborating on code writing.
 
-## ¿Pair Programming?
-- **Mejora de la calidad del código:**
-  - Revisar y discutir cada línea de código en tiempo real.
-  - Detección temprana de errores.
-  - Identificación de soluciones más eficientes.
-  - Adopción de buenas prácticas.
-- **Aprendizaje y desarrollo profesional:**
-  - Transferencia de conocimientos.
-  - Compartir enfoques, técnicas y habilidades.
-  - Ambiente de aprendizaje continuo.
-- **Reducción de errores:**
-  - Dos pares de ojos son mejor que uno.
-  - Reducir las posibilidades de pasar por alto errores o defectos.
-  - Software más robusto y confiable.
-- **Mayor concentración y enfoque:**
-  - Concentración y compromiso en la tarea asignada.
-  - Motivación mejorada.
-- **Mejora de la colaboración y comunicación:**
-  - Colaboración activa y comunicación efectiva.
-  - Fortalece el entendimiento mutuo.
+- Continuous Unit Testing (Continuous Integration):
+  - Unit tests are written before writing the code and run automatically on a continuous basis to ensure software quality.
 
-## Errores comunes en Pair Programming
-- Falta de roles definidos.
-- Dependencia excesiva.
-- Falta de seguimiento.
-- Comunicación ineficaz.
-- Falta de preparación.
-- No respetar los límites de tiempo.
-- Falta de rotación de roles.
-- Resistencia a la retroalimentación.
+- Continuous Integration:
+  - Code changes are automatically integrated into a shared repository multiple times a day, helping to identify and resolve integration issues quickly.
 
-## Trabajar de forma exitosa
-- Comunicación efectiva.
-- Establecer roles claros.
-- Seguir las prácticas de XP.
-- Colaboración activa.
-- Tomar descansos regulares.
-- Brindar y recibir retroalimentación.
-- Practicar la empatía.
-- Mantener un ambiente positivo.
+- Refactoring:
+  - It is performed frequently and systematically to improve the structure and design of the code without changing its functionality.
 
-##Roles LEAN XP
+- Planning Game:
+  - It is conducted in short iterations (usually one or two weeks) to identify and prioritize product features and plan team activities.
+
+- Simple Design:
+  - It focuses on creating the simplest solution that meets current requirements, avoiding over-engineering and anticipating future changes.
+
+### Values
+
+- "What matters most in team software development is communication." (Kent Beck)
+  - It promotes open and effective communication among all members of the development team, as well as with external stakeholders.
+
+- Simplicity:
+  - Simplicity in Lean XP means focusing on what is necessary to deliver value efficiently.
+  - "Simplicity is the most intensely intellectual value of XP."
+  - "What is the simplest thing that could work?"
+
+- Feedback:
+  - "The sooner you know it, the sooner you can adapt."
+  - "Feedback is a fundamental part of communication."
+  - "Feedback also contributes to simplicity."
+  - Feedback in Lean XP involves continuously seeking and providing constructive criticism to improve the product, processes, and personal development.
+
+- Courage:
+  - "Courage is effective action in the face of fear."
+  - "Sometimes courage manifests as a willingness to act."
+  - "The courage to speak the truth, pleasant or unpleasant, fosters communication and trust."
+  - The value in Lean XP involves taking risks, trying new things, discussing issues, and making tough decisions even in uncertain conditions.
+
+- Respect:
+  - "The four values above point to one that is beneath the other four: respect."
+  - "Every person whose life is affected by software development has the same value as a human being."
+  - It recognizes and values the contributions of each team member, fostering a collaborative and respectful work environment.
+
+## Pair Programming?
+
+### Improving code quality
+- Review and discuss each line of code in real-time.
+- Early detection of errors
+- Identification of more efficient solutions
+- Adoption of best practices
+
+### Learning and professional development
+- Knowledge transfer
+- Sharing approaches, techniques, and skills
+- Continuous learning environment
+
+### Error reduction
+- Two pairs of eyes are better than one.
+- Reduce the chances of overlooking errors or defects.
+- More robust and reliable software
+
+### Increased focus and concentration
+- Concentration and focus on the assigned task
+- Commitment
+- Motivation
+
+### Improving collaboration and communication
+- Active collaboration
+- Effective communication
+- Strengthens mutual understanding
+
+### Common errors in Pair Programming
+- Lack of defined roles
+- Excessive dependence
+- Lack of follow-up
+- Ineffective communication
+- Lack of preparation
+- Not respecting time limits
+- Lack of role rotation
+- Resistance to feedback
+
+### Working successfully
+- Effective communication
+- Establish clear roles
+- Follow XP practices
+- Active collaboration
+- Take regular breaks
+- Provide and receive feedback
+- Follow XP practices
+- Practice empathy
+- Maintain a positive environment
 
 
-| Número | Rol                   | Descripción                                                                                      |
-|--------|------------------------|--------------------------------------------------------------------------------------------------|
-| 1      | Product Owner          | Representa al cliente o al negocio. Es responsable de definir y priorizar los requisitos del producto. |
-| 2      | Scrum Master           | Facilita el proceso ágil. Elimina los obstáculos que enfrenta el equipo.                           |
-| 3      | Desarrollador          | Responsable de escribir código, realizar pruebas y entregar incrementos de software funcionales durante cada sprint. |
-| 4      | Tester                 | Responsable de probar el software para garantizar que cumple con los requisitos y que funciona correctamente. |
-| 5      | Equipo de Stakeholders | Son usuarios finales y otras partes interesadas en el proyecto.                                    |
-| 6      | Coach (XP Coach)       | Facilitador externo o interno que guía al equipo en la adopción y práctica de los principios y prácticas de XP. |
-| 7      | Tracker                | Es responsable de mantener actualizado el tablero de tareas (task board) o sistema de seguimiento de trabajo. |
-| 8      | Consultor              | Expertos en áreas específicas que pueden no estar cubiertas por el equipo principal.               |
+## Roles in LEAN XP
+
+| Number | Role                   | Description                                                                                       |
+|--------|------------------------|---------------------------------------------------------------------------------------------------|
+| 1      | Product Owner          | Represents the customer or business. Responsible for defining and prioritizing product requirements. |
+| 2      | Scrum Master           | Facilitates the agile process. Removes obstacles faced by the team.                                |
+| 3      | Developer              | Responsible for writing code, conducting tests, and delivering functional software increments during each sprint. |
+| 4      | Tester                 | Responsible for testing the software to ensure it meets requirements and functions correctly.     |
+| 5      | Stakeholders Team      | End users and other stakeholders in the project.                                                   |
+| 6      | Coach (XP Coach)       | External or internal facilitator who guides the team in adopting and practicing XP principles and practices. |
+| 7      | Tracker                | Responsible for keeping the task board or work tracking system updated.                            |
+| 8      | Consultant             | Experts in specific areas that may not be covered by the core team.                                |
 
 
-##Día y semana en un proyecto Lean XP
-| Actividad                                      |                                                                                           
-|------------------------------------------------|
-| **Daily Stand-Up**                              |                                                                                                       
-| - Cada mañana, el equipo analiza sus actividades principales del día.                                    |                                                                                                       |
-| - Mencionan lo que lograron ayer, identifican lo que harán hoy y resaltan cualquier cosa que bloquee el progreso. |                                                                                                       |
-| - Esta reunión de ritmo rápido dura menos de un minuto por persona.                                       |                                                                                                       |
-| **IPM (Reunión de Planificación de Iteración o Incremento)** |                                                                                                       |
-| - El PM dirige al equipo de SE a través de las historias de usuarios que formarán parte del trabajo pendiente priorizado. |                                                                                                       |
-| - El PM escribe y prioriza historias para el IPM de la semana siguiente utilizando evidencia de investigaciones de usuarios, pruebas y datos analíticos. |                                                                                                       |
-| **Weekly Work Cycle**                           |                                                                                                       |
-| - Ciclo de trabajo semanal.                     |                                                                                                       |
-| - Los SE extraen las historias de usuario estimadas del trabajo pendiente priorizado tan pronto como se completan las historias actuales. |                                                                                                       |
-| - El equipo de SE estima las historias de los usuarios en función de la complejidad.                     |                                                                                                       |
-| - Luego, el equipo recorre las historias de los usuarios antes de darlas por completadas.                |                                                                                                       |
-| **Retrospective**                               |                                                                                                       |
-| - El equipo se reúne para reflexionar.          |                                                                                                       |
-| - El objetivo es mejorar continuamente el proceso ágil, identificar problemas y enumerar acciones de mejora para la siguiente semana. |                                                                                                       |
-| - Las grandes historias pueden dividirse o redefinirse.                                                  |                                                                                                       |
-| - El PD construye y prueba prototipos para satisfacer las necesidades del usuario y reducir el riesgo de que posibles funciones no agreguen valor. |                                                                                                       |
-| - El equipo hace preguntas para aclarar la viabilidad de la historia.                                    |                                                                                                       |
-| - Solo debe haber una User Story cada par de SE.                                                          |                                                                                                       |
-| - Los equipos están ubicados juntos para permitir la programación emparejada.                             |                                                                                                       |
-| - Las partes interesadas no están presentes.                                                                |                                                                                                       |
+## Daily and Weekly Cycle in a Lean XP Project
 
-
+| Activity                                        |
+|-------------------------------------------------|
+| **Daily Stand-Up**                              |
+| - Each morning, the team discusses their main activities for the day.                                  |
+| - They mention what they achieved yesterday, identify what they will do today, and highlight anything blocking progress. |
+| - This fast-paced meeting lasts less than a minute per person.                                          |
+| **IPM (Iteration or Increment Planning Meeting)**|
+| - The PM guides the SE team through user stories that will be part of the prioritized backlog.        |
+| - The PM writes and prioritizes stories for the next IPM using evidence from user research, tests, and analytics data. |
+| **Weekly Work Cycle**                           |
+| - Weekly work cycle.                            |
+| - SEs pull estimated user stories from the prioritized backlog as soon as current stories are completed. |
+| - The SE team estimates user stories based on complexity.                                               |
+| - Then, the team reviews user stories before marking them as completed.                                 |
+| **Retrospective**                               |
+| - The team meets to reflect.                    |
+| - The goal is to continuously improve the agile process, identify issues, and list improvement actions for the following week. |
+| - Large stories may be split or redefined.     |
+| - PD builds and tests prototypes to meet user needs and reduce the risk of non-value-added features.  |
+| - The team asks questions to clarify the feasibility of the story.                                     |
+| - There should be only one User Story per pair of SEs.                                                  |
+| - Teams are co-located to enable pair programming.                                                      |
+| - Stakeholders are not present during this meeting.                                                     |
+```
