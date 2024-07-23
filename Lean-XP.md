@@ -127,9 +127,9 @@ Extreme Programming (XP) es una metodología ágil de desarrollo de software que
 
 
 ##Día y semana en un proyecto Lean XP
-| Actividad                                      | Descripción                                                                                           |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Daily Stand-Up**                              |                                                                                                       |
+| Actividad                                      |                                                                                           
+|------------------------------------------------|
+| **Daily Stand-Up**                              |                                                                                                       
 | - Cada mañana, el equipo analiza sus actividades principales del día.                                    |                                                                                                       |
 | - Mencionan lo que lograron ayer, identifican lo que harán hoy y resaltan cualquier cosa que bloquee el progreso. |                                                                                                       |
 | - Esta reunión de ritmo rápido dura menos de un minuto por persona.                                       |                                                                                                       |
