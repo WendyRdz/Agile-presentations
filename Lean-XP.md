@@ -99,6 +99,7 @@ Extreme Programming (XP) is an agile software development methodology that focus
   - "Every person whose life is affected by software development has the same value as a human being."
   - It recognizes and values the contributions of each team member, fostering a collaborative and respectful work environment.
 
+![](pair-programming.jpg)
 ## Pair Programming?
 
 ### Improving code quality
@@ -148,7 +149,7 @@ Extreme Programming (XP) is an agile software development methodology that focus
 - Practice empathy
 - Maintain a positive environment
 
-
+![](lean-xp.jpg)
 ## Roles in LEAN XP
 
 | Number | Role                   | Description                                                                                       |
