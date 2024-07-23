@@ -110,3 +110,45 @@ Extreme Programming (XP) es una metodología ágil de desarrollo de software que
 - Brindar y recibir retroalimentación.
 - Practicar la empatía.
 - Mantener un ambiente positivo.
+
+##Roles LEAN XP
+
+
+| Número | Rol                   | Descripción                                                                                      |
+|--------|------------------------|--------------------------------------------------------------------------------------------------|
+| 1      | Product Owner          | Representa al cliente o al negocio. Es responsable de definir y priorizar los requisitos del producto. |
+| 2      | Scrum Master           | Facilita el proceso ágil. Elimina los obstáculos que enfrenta el equipo.                           |
+| 3      | Desarrollador          | Responsable de escribir código, realizar pruebas y entregar incrementos de software funcionales durante cada sprint. |
+| 4      | Tester                 | Responsable de probar el software para garantizar que cumple con los requisitos y que funciona correctamente. |
+| 5      | Equipo de Stakeholders | Son usuarios finales y otras partes interesadas en el proyecto.                                    |
+| 6      | Coach (XP Coach)       | Facilitador externo o interno que guía al equipo en la adopción y práctica de los principios y prácticas de XP. |
+| 7      | Tracker                | Es responsable de mantener actualizado el tablero de tareas (task board) o sistema de seguimiento de trabajo. |
+| 8      | Consultor              | Expertos en áreas específicas que pueden no estar cubiertas por el equipo principal.               |
+
+
+##Día y semana en un proyecto Lean XP
+| Actividad                                      | Descripción                                                                                           |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Daily Stand-Up**                              |                                                                                                       |
+| - Cada mañana, el equipo analiza sus actividades principales del día.                                    |                                                                                                       |
+| - Mencionan lo que lograron ayer, identifican lo que harán hoy y resaltan cualquier cosa que bloquee el progreso. |                                                                                                       |
+| - Esta reunión de ritmo rápido dura menos de un minuto por persona.                                       |                                                                                                       |
+| **IPM (Reunión de Planificación de Iteración o Incremento)** |                                                                                                       |
+| - El PM dirige al equipo de SE a través de las historias de usuarios que formarán parte del trabajo pendiente priorizado. |                                                                                                       |
+| - El PM escribe y prioriza historias para el IPM de la semana siguiente utilizando evidencia de investigaciones de usuarios, pruebas y datos analíticos. |                                                                                                       |
+| **Weekly Work Cycle**                           |                                                                                                       |
+| - Ciclo de trabajo semanal.                     |                                                                                                       |
+| - Los SE extraen las historias de usuario estimadas del trabajo pendiente priorizado tan pronto como se completan las historias actuales. |                                                                                                       |
+| - El equipo de SE estima las historias de los usuarios en función de la complejidad.                     |                                                                                                       |
+| - Luego, el equipo recorre las historias de los usuarios antes de darlas por completadas.                |                                                                                                       |
+| **Retrospective**                               |                                                                                                       |
+| - El equipo se reúne para reflexionar.          |                                                                                                       |
+| - El objetivo es mejorar continuamente el proceso ágil, identificar problemas y enumerar acciones de mejora para la siguiente semana. |                                                                                                       |
+| - Las grandes historias pueden dividirse o redefinirse.                                                  |                                                                                                       |
+| - El PD construye y prueba prototipos para satisfacer las necesidades del usuario y reducir el riesgo de que posibles funciones no agreguen valor. |                                                                                                       |
+| - El equipo hace preguntas para aclarar la viabilidad de la historia.                                    |                                                                                                       |
+| - Solo debe haber una User Story cada par de SE.                                                          |                                                                                                       |
+| - Los equipos están ubicados juntos para permitir la programación emparejada.                             |                                                                                                       |
+| - Las partes interesadas no están presentes.                                                                |                                                                                                       |
+
+
