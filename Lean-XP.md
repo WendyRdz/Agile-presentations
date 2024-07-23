@@ -189,4 +189,4 @@ Extreme Programming (XP) is an agile software development methodology that focus
 | - There should be only one User Story per pair of SEs.                                                  |
 | - Teams are co-located to enable pair programming.                                                      |
 | - Stakeholders are not present during this meeting.                                                     |
-```
+
